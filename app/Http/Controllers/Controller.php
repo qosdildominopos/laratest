@@ -13,5 +13,6 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
  */
 class Controller extends BaseController
 {
+    $this->nothing = 0;
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 }
